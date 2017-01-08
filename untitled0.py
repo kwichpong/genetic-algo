@@ -65,8 +65,7 @@ def IsCanStart(toCheck):
 
 def IsUsing():
     return True
-def TestGit():
-    print "asdasd"
+
 '''
 def readresource():
     f=open('resource.csv','r')
