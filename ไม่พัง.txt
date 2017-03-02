@@ -1,0 +1,615 @@
+init chromosome ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
+
+
+Input Popsize: 10
+
+Cross Over Probability(%): 100
+
+Mutation Probability(%): 100
+
+Maximum Generation: 10
+==============Chromosome 1 =====================
+Start:  ['K', 'B', 'J', 'H', 'A', 'I', 'G', 'D', 'C', 'E', 'F']
+Initial Chromosome ['B', 'A', 'C', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+==============Chromosome 2 =====================
+Start:  ['C', 'B', 'H', 'A', 'D', 'K', 'J', 'G', 'I', 'E', 'F']
+Initial Chromosome ['C', 'B', 'A', 'D', 'E', 'F', 'G', 'H', 'K', 'I', 'J']
+==============Chromosome 3 =====================
+Start:  ['B', 'G', 'C', 'K', 'A', 'H', 'D', 'J', 'E', 'I', 'F']
+Initial Chromosome ['B', 'C', 'A', 'D', 'E', 'F', 'G', 'K', 'H', 'I', 'J']
+==============Chromosome 4 =====================
+Start:  ['J', 'D', 'A', 'H', 'E', 'F', 'C', 'K', 'I', 'G', 'B']
+Initial Chromosome ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K']
+==============Chromosome 5 =====================
+Start:  ['J', 'B', 'I', 'A', 'E', 'F', 'D', 'K', 'G', 'H', 'C']
+Initial Chromosome ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+==============Chromosome 6 =====================
+Start:  ['B', 'J', 'F', 'I', 'C', 'G', 'K', 'D', 'A', 'E', 'H']
+Initial Chromosome ['B', 'C', 'D', 'A', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+==============Chromosome 7 =====================
+Start:  ['H', 'F', 'B', 'D', 'J', 'G', 'K', 'A', 'E', 'I', 'C']
+Initial Chromosome ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J']
+==============Chromosome 8 =====================
+Start:  ['D', 'H', 'J', 'I', 'F', 'A', 'E', 'C', 'G', 'K', 'B']
+Initial Chromosome ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K']
+==============Chromosome 9 =====================
+Start:  ['K', 'F', 'J', 'A', 'C', 'I', 'H', 'B', 'E', 'G', 'D']
+Initial Chromosome ['A', 'C', 'B', 'E', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+==============Chromosome 10 =====================
+Start:  ['B', 'E', 'J', 'C', 'G', 'D', 'F', 'K', 'I', 'H', 'A']
+Initial Chromosome ['B', 'C', 'D', 'A', 'E', 'F', 'G', 'K', 'I', 'H', 'J']
+
+Press Enter to find Parent Chrmosome0
+===============Parent No.: 1 ===============
+NO: 1 ['B', 'A', 'C', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+NO: 5 ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+===============Parent No.: 2 ===============
+NO: 2 ['C', 'B', 'A', 'D', 'E', 'F', 'G', 'H', 'K', 'I', 'J']
+NO: 10 ['B', 'C', 'D', 'A', 'E', 'F', 'G', 'K', 'I', 'H', 'J']
+===============Parent No.: 3 ===============
+NO: 3 ['B', 'C', 'A', 'D', 'E', 'F', 'G', 'K', 'H', 'I', 'J']
+NO: 6 ['B', 'C', 'D', 'A', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+===============Parent No.: 4 ===============
+NO: 8 ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K']
+NO: 9 ['A', 'C', 'B', 'E', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+===============Parent No.: 5 ===============
+NO: 4 ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K']
+NO: 7 ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J']
+
+Press Enter to show crossover process
+===============Parent No.: 1 ===============
+Cross Over probability 0.48902579607
+Cross Over Mask: [1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1]
+Father From NO.: 1 : ['B', 'A', 'C', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+Mother From NO.: 5 : ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+Fill Mask Logic 1
+Son1 ['B', '_', '_', '_', '_', '_', 'I', '_', 'K', 'H', 'J']
+Son2 ['_', 'A', 'E', 'C', 'D', 'F', '_', 'G', '_', '_', '_']
+Fill Mask Logic 0
+son1TobeFilled ['A', 'E', 'C', 'D', 'F', 'G']
+son2TobeFilled ['B', 'I', 'K', 'H', 'J']
+Son1 ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+Son2 ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+===============Parent No.: 2 ===============
+Cross Over probability 0.836496128841
+Cross Over Mask: [1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1]
+Father From NO.: 2 : ['C', 'B', 'A', 'D', 'E', 'F', 'G', 'H', 'K', 'I', 'J']
+Mother From NO.: 10 : ['B', 'C', 'D', 'A', 'E', 'F', 'G', 'K', 'I', 'H', 'J']
+Fill Mask Logic 1
+Son1 ['C', '_', 'A', '_', 'E', 'F', '_', '_', 'K', '_', 'J']
+Son2 ['_', 'C', '_', 'A', '_', '_', 'G', 'K', '_', 'H', '_']
+Fill Mask Logic 0
+son1TobeFilled ['B', 'D', 'G', 'I', 'H']
+son2TobeFilled ['B', 'D', 'E', 'F', 'I', 'J']
+Son1 ['C', 'B', 'A', 'D', 'E', 'F', 'G', 'I', 'K', 'H', 'J']
+Son2 ['B', 'C', 'D', 'A', 'E', 'F', 'G', 'K', 'I', 'H', 'J']
+===============Parent No.: 3 ===============
+Cross Over probability 0.141996235722
+Cross Over Mask: [0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1]
+Father From NO.: 3 : ['B', 'C', 'A', 'D', 'E', 'F', 'G', 'K', 'H', 'I', 'J']
+Mother From NO.: 6 : ['B', 'C', 'D', 'A', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+Fill Mask Logic 1
+Son1 ['_', '_', 'A', '_', 'E', 'F', '_', '_', '_', '_', 'J']
+Son2 ['B', 'C', '_', 'A', '_', '_', 'I', 'G', 'K', 'H', '_']
+Fill Mask Logic 0
+son1TobeFilled ['B', 'C', 'D', 'I', 'G', 'K', 'H']
+son2TobeFilled ['D', 'E', 'F', 'J']
+Son1 ['B', 'C', 'A', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+Son2 ['B', 'C', 'D', 'A', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+===============Parent No.: 4 ===============
+Cross Over probability 0.427531239109
+Cross Over Mask: [1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1]
+Father From NO.: 8 : ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K']
+Mother From NO.: 9 : ['A', 'C', 'B', 'E', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+Fill Mask Logic 1
+Son1 ['A', 'C', '_', 'B', '_', 'F', 'I', 'G', 'H', '_', 'K']
+Son2 ['_', '_', 'B', '_', 'D', '_', '_', '_', '_', 'H', '_']
+Fill Mask Logic 0
+son1TobeFilled ['E', 'D', 'J']
+son2TobeFilled ['A', 'C', 'E', 'F', 'I', 'G', 'J', 'K']
+Son1 ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K']
+Son2 ['A', 'C', 'B', 'E', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+===============Parent No.: 5 ===============
+Cross Over probability 0.0471997994023
+Cross Over Mask: [0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0]
+Father From NO.: 4 : ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K']
+Mother From NO.: 7 : ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J']
+Fill Mask Logic 1
+Son1 ['_', 'C', '_', '_', '_', 'F', 'I', '_', '_', '_', '_']
+Son2 ['B', '_', 'E', 'C', 'D', '_', '_', 'H', 'K', 'I', 'J']
+Fill Mask Logic 0
+son1TobeFilled ['B', 'A', 'E', 'D', 'G', 'H', 'K', 'J']
+son2TobeFilled ['A', 'F', 'G']
+Son1 ['B', 'C', 'A', 'E', 'D', 'F', 'I', 'G', 'H', 'K', 'J']
+Son2 ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J']
+
+Press Enter to show mutation process
+===========================================
+Chromosome:  ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+Mutation probability 0.900130147742
+Do Mutation
+Mutation Index: 5 >> D
+Mutation Index: 10 >> H
+Can't Swap
+===========================================
+Chromosome:  ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+Mutation probability 0.195842553775
+Do Mutation
+Mutation Index: 9 >> K
+Mutation Index: 4 >> C
+Can't Swap
+===========================================
+Chromosome:  ['C', 'B', 'A', 'D', 'E', 'F', 'G', 'I', 'K', 'H', 'J']
+Mutation probability 0.595369126694
+Do Mutation
+Mutation Index: 4 >> D
+Mutation Index: 6 >> F
+Can't Swap
+===========================================
+Chromosome:  ['B', 'C', 'D', 'A', 'E', 'F', 'G', 'K', 'I', 'H', 'J']
+Mutation probability 0.782570395409
+Do Mutation
+Mutation Index: 2 >> C
+Mutation Index: 5 >> E
+Can't Swap
+===========================================
+Chromosome:  ['B', 'C', 'A', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+Mutation probability 0.173325990772
+Do Mutation
+Mutation Index: 1 >> B
+Mutation Index: 2 >> C
+Can Swap
+===========================================
+Chromosome:  ['B', 'C', 'D', 'A', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+Mutation probability 0.70621284565
+Do Mutation
+Mutation Index: 9 >> K
+Mutation Index: 1 >> B
+Can't Swap
+===========================================
+Chromosome:  ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K']
+Mutation probability 0.225571105582
+Do Mutation
+Mutation Index: 7 >> I
+Mutation Index: 4 >> B
+Can't Swap
+===========================================
+Chromosome:  ['A', 'C', 'B', 'E', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+Mutation probability 0.225011094667
+Do Mutation
+Mutation Index: 10 >> H
+Mutation Index: 1 >> A
+Can't Swap
+===========================================
+Chromosome:  ['B', 'C', 'A', 'E', 'D', 'F', 'I', 'G', 'H', 'K', 'J']
+Mutation probability 0.500391078379
+Do Mutation
+Mutation Index: 2 >> C
+Mutation Index: 10 >> K
+Can't Swap
+===========================================
+Chromosome:  ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J']
+Mutation probability 0.393109864963
+Do Mutation
+Mutation Index: 1 >> B
+Mutation Index: 3 >> E
+Can't Swap
+===========Summary=========
+New Generation Chromosome
+['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+tasktodo ['B', 'A']
+Time to do: 3 Total time: 3
+tasktodo ['E', 'C']
+Time to do: 5 Total time: 8
+tasktodo ['D']
+Time to do: 2 Total time: 10
+tasktodo ['F']
+Time to do: 4 Total time: 14
+tasktodo ['I', 'G']
+Time to do: 3 Total time: 17
+tasktodo ['K', 'H']
+Time to do: 13 Total time: 30
+tasktodo ['J']
+Time to do: 3 Total time: 33
+TotalTime:  33
+===============================
+['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+tasktodo ['B', 'A']
+Time to do: 3 Total time: 3
+tasktodo ['E', 'C']
+Time to do: 5 Total time: 8
+tasktodo ['D']
+Time to do: 2 Total time: 10
+tasktodo ['F']
+Time to do: 4 Total time: 14
+tasktodo ['I', 'G']
+Time to do: 3 Total time: 17
+tasktodo ['K', 'H']
+Time to do: 13 Total time: 30
+tasktodo ['J']
+Time to do: 3 Total time: 33
+TotalTime:  33
+===============================
+['C', 'B', 'A', 'D', 'E', 'F', 'G', 'I', 'K', 'H', 'J']
+tasktodo ['C', 'B', 'A']
+Time to do: 5 Total time: 5
+tasktodo ['D', 'E']
+Time to do: 5 Total time: 10
+tasktodo ['F']
+Time to do: 4 Total time: 14
+tasktodo ['G', 'I']
+Time to do: 4 Total time: 18
+tasktodo ['K', 'H']
+Time to do: 13 Total time: 31
+tasktodo ['J']
+Time to do: 3 Total time: 34
+TotalTime:  34
+===============================
+['B', 'C', 'D', 'A', 'E', 'F', 'G', 'K', 'I', 'H', 'J']
+tasktodo ['B', 'C']
+Time to do: 4 Total time: 4
+tasktodo ['D', 'A']
+Time to do: 2 Total time: 6
+tasktodo ['E']
+Time to do: 5 Total time: 11
+tasktodo ['F']
+Time to do: 4 Total time: 15
+tasktodo ['G']
+Time to do: 2 Total time: 17
+tasktodo ['K', 'I', 'H']
+Time to do: 13 Total time: 30
+tasktodo ['J']
+Time to do: 3 Total time: 33
+TotalTime:  33
+===============================
+['C', 'B', 'A', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+tasktodo ['C', 'B', 'A']
+Time to do: 5 Total time: 5
+tasktodo ['D', 'E']
+Time to do: 5 Total time: 10
+tasktodo ['F']
+Time to do: 4 Total time: 14
+tasktodo ['I', 'G']
+Time to do: 3 Total time: 17
+tasktodo ['K', 'H']
+Time to do: 13 Total time: 30
+tasktodo ['J']
+Time to do: 3 Total time: 33
+TotalTime:  33
+===============================
+['B', 'C', 'D', 'A', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+tasktodo ['B', 'C']
+Time to do: 4 Total time: 4
+tasktodo ['D', 'A']
+Time to do: 2 Total time: 6
+tasktodo ['E']
+Time to do: 5 Total time: 11
+tasktodo ['F']
+Time to do: 4 Total time: 15
+tasktodo ['I', 'G']
+Time to do: 3 Total time: 18
+tasktodo ['K', 'H']
+Time to do: 13 Total time: 31
+tasktodo ['J']
+Time to do: 3 Total time: 34
+TotalTime:  34
+===============================
+['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K']
+tasktodo ['A', 'C']
+Time to do: 4 Total time: 4
+tasktodo ['D', 'B']
+Time to do: 0 Total time: 4
+tasktodo ['E']
+Time to do: 5 Total time: 9
+tasktodo ['F']
+Time to do: 4 Total time: 13
+tasktodo ['I', 'G']
+Time to do: 3 Total time: 16
+tasktodo ['H']
+Time to do: 10 Total time: 26
+tasktodo ['J', 'K']
+Time to do: 10 Total time: 36
+TotalTime:  36
+===============================
+['A', 'C', 'B', 'E', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+tasktodo ['A', 'C', 'B']
+Time to do: 4 Total time: 4
+tasktodo ['E', 'D']
+Time to do: 5 Total time: 9
+tasktodo ['F']
+Time to do: 4 Total time: 13
+tasktodo ['I', 'G']
+Time to do: 3 Total time: 16
+tasktodo ['K', 'H']
+Time to do: 13 Total time: 29
+tasktodo ['J']
+Time to do: 3 Total time: 32
+TotalTime:  32
+===============================
+['B', 'C', 'A', 'E', 'D', 'F', 'I', 'G', 'H', 'K', 'J']
+tasktodo ['B', 'C', 'A']
+Time to do: 4 Total time: 4
+tasktodo ['E', 'D']
+Time to do: 5 Total time: 9
+tasktodo ['F']
+Time to do: 4 Total time: 13
+tasktodo ['I', 'G']
+Time to do: 3 Total time: 16
+tasktodo ['H', 'K']
+Time to do: 14 Total time: 30
+tasktodo ['J']
+Time to do: 3 Total time: 33
+TotalTime:  33
+===============================
+['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J']
+tasktodo ['B', 'A']
+Time to do: 3 Total time: 3
+tasktodo ['E', 'C']
+Time to do: 5 Total time: 8
+tasktodo ['D']
+Time to do: 2 Total time: 10
+tasktodo ['F']
+Time to do: 4 Total time: 14
+tasktodo ['G']
+Time to do: 2 Total time: 16
+tasktodo ['H', 'K', 'I']
+Time to do: 14 Total time: 30
+tasktodo ['J']
+Time to do: 3 Total time: 33
+TotalTime:  33
+===============================
+Parent Chromosome
+['B', 'A', 'C', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+tasktodo ['B', 'A', 'C']
+Time to do: 4 Total time: 4
+tasktodo ['D', 'E']
+Time to do: 5 Total time: 9
+tasktodo ['F']
+Time to do: 4 Total time: 13
+tasktodo ['I', 'G']
+Time to do: 3 Total time: 16
+tasktodo ['K', 'H']
+Time to do: 13 Total time: 29
+tasktodo ['J']
+Time to do: 3 Total time: 32
+TotalTime:  32
+===============================
+['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+tasktodo ['B', 'A']
+Time to do: 3 Total time: 3
+tasktodo ['E', 'C']
+Time to do: 5 Total time: 8
+tasktodo ['D']
+Time to do: 2 Total time: 10
+tasktodo ['F']
+Time to do: 4 Total time: 14
+tasktodo ['I', 'G']
+Time to do: 3 Total time: 17
+tasktodo ['K', 'H']
+Time to do: 13 Total time: 30
+tasktodo ['J']
+Time to do: 3 Total time: 33
+TotalTime:  33
+===============================
+['C', 'B', 'A', 'D', 'E', 'F', 'G', 'H', 'K', 'I', 'J']
+tasktodo ['C', 'B', 'A']
+Time to do: 5 Total time: 5
+tasktodo ['D', 'E']
+Time to do: 5 Total time: 10
+tasktodo ['F']
+Time to do: 4 Total time: 14
+tasktodo ['G']
+Time to do: 2 Total time: 16
+tasktodo ['H', 'K', 'I']
+Time to do: 14 Total time: 30
+tasktodo ['J']
+Time to do: 3 Total time: 33
+TotalTime:  33
+===============================
+['B', 'C', 'D', 'A', 'E', 'F', 'G', 'K', 'I', 'H', 'J']
+tasktodo ['B', 'C']
+Time to do: 4 Total time: 4
+tasktodo ['D', 'A']
+Time to do: 2 Total time: 6
+tasktodo ['E']
+Time to do: 5 Total time: 11
+tasktodo ['F']
+Time to do: 4 Total time: 15
+tasktodo ['G']
+Time to do: 2 Total time: 17
+tasktodo ['K', 'I', 'H']
+Time to do: 13 Total time: 30
+tasktodo ['J']
+Time to do: 3 Total time: 33
+TotalTime:  33
+===============================
+['B', 'C', 'A', 'D', 'E', 'F', 'G', 'K', 'H', 'I', 'J']
+tasktodo ['B', 'C', 'A']
+Time to do: 4 Total time: 4
+tasktodo ['D', 'E']
+Time to do: 5 Total time: 9
+tasktodo ['F']
+Time to do: 4 Total time: 13
+tasktodo ['G']
+Time to do: 2 Total time: 15
+tasktodo ['K', 'H', 'I']
+Time to do: 13 Total time: 28
+tasktodo ['J']
+Time to do: 3 Total time: 31
+TotalTime:  31
+===============================
+['B', 'C', 'D', 'A', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+tasktodo ['B', 'C']
+Time to do: 4 Total time: 4
+tasktodo ['D', 'A']
+Time to do: 2 Total time: 6
+tasktodo ['E']
+Time to do: 5 Total time: 11
+tasktodo ['F']
+Time to do: 4 Total time: 15
+tasktodo ['I', 'G']
+Time to do: 3 Total time: 18
+tasktodo ['K', 'H']
+Time to do: 13 Total time: 31
+tasktodo ['J']
+Time to do: 3 Total time: 34
+TotalTime:  34
+===============================
+['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K']
+tasktodo ['A', 'C']
+Time to do: 4 Total time: 4
+tasktodo ['D', 'B']
+Time to do: 0 Total time: 4
+tasktodo ['E']
+Time to do: 5 Total time: 9
+tasktodo ['F']
+Time to do: 4 Total time: 13
+tasktodo ['I', 'G']
+Time to do: 3 Total time: 16
+tasktodo ['H']
+Time to do: 10 Total time: 26
+tasktodo ['J', 'K']
+Time to do: 10 Total time: 36
+TotalTime:  36
+===============================
+['A', 'C', 'B', 'E', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+tasktodo ['A', 'C', 'B']
+Time to do: 4 Total time: 4
+tasktodo ['E', 'D']
+Time to do: 5 Total time: 9
+tasktodo ['F']
+Time to do: 4 Total time: 13
+tasktodo ['I', 'G']
+Time to do: 3 Total time: 16
+tasktodo ['K', 'H']
+Time to do: 13 Total time: 29
+tasktodo ['J']
+Time to do: 3 Total time: 32
+TotalTime:  32
+===============================
+['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K']
+tasktodo ['A', 'C']
+Time to do: 4 Total time: 4
+tasktodo ['D', 'B']
+Time to do: 0 Total time: 4
+tasktodo ['E']
+Time to do: 5 Total time: 9
+tasktodo ['F']
+Time to do: 4 Total time: 13
+tasktodo ['I', 'G']
+Time to do: 3 Total time: 16
+tasktodo ['H']
+Time to do: 10 Total time: 26
+tasktodo ['J', 'K']
+Time to do: 10 Total time: 36
+TotalTime:  36
+===============================
+['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J']
+tasktodo ['B', 'A']
+Time to do: 3 Total time: 3
+tasktodo ['E', 'C']
+Time to do: 5 Total time: 8
+tasktodo ['D']
+Time to do: 2 Total time: 10
+tasktodo ['F']
+Time to do: 4 Total time: 14
+tasktodo ['G']
+Time to do: 2 Total time: 16
+tasktodo ['H', 'K', 'I']
+Time to do: 14 Total time: 30
+tasktodo ['J']
+Time to do: 3 Total time: 33
+TotalTime:  33
+===============================
+=============ELETIS===============
+15 ['B', 'C', 'A', 'D', 'E', 'F', 'G', 'K', 'H', 'I', 'J'] 31
+
+Press Enter to find Probability Roulette Wheel Method
+========================================================
+Roulette Wheel Method
+No.|                    Chromosome                            | Fitness |    Probability    |          Range
+15  |  ['B', 'C', 'A', 'D', 'E', 'F', 'G', 'K', 'H', 'I', 'J'] |   31    |   0.0537091055962  | [0, 0.053709105596194406]
+
+8  |  ['A', 'C', 'B', 'E', 'D', 'F', 'I', 'G', 'K', 'H', 'J'] |   32    |   0.0520306960463  | [0.053709105596194406, 0.10573980164250774]
+
+11  |  ['B', 'A', 'C', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J'] |   32    |   0.0520306960463  | [0.10573980164250774, 0.15777049768882107]
+
+18  |  ['A', 'C', 'B', 'E', 'D', 'F', 'I', 'G', 'K', 'H', 'J'] |   32    |   0.0520306960463  | [0.15777049768882107, 0.2098011937351344]
+
+1  |  ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J'] |   33    |   0.0504540082873  | [0.2098011937351344, 0.26025520202246855]
+
+2  |  ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J'] |   33    |   0.0504540082873  | [0.26025520202246855, 0.3107092103098027]
+
+4  |  ['B', 'C', 'D', 'A', 'E', 'F', 'G', 'K', 'I', 'H', 'J'] |   33    |   0.0504540082873  | [0.3107092103098027, 0.36116321859713685]
+
+5  |  ['C', 'B', 'A', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J'] |   33    |   0.0504540082873  | [0.36116321859713685, 0.411617226884471]
+
+9  |  ['B', 'C', 'A', 'E', 'D', 'F', 'I', 'G', 'H', 'K', 'J'] |   33    |   0.0504540082873  | [0.411617226884471, 0.46207123517180515]
+
+10  |  ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J'] |   33    |   0.0504540082873  | [0.46207123517180515, 0.5125252434591393]
+
+12  |  ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J'] |   33    |   0.0504540082873  | [0.5125252434591393, 0.5629792517464735]
+
+13  |  ['C', 'B', 'A', 'D', 'E', 'F', 'G', 'H', 'K', 'I', 'J'] |   33    |   0.0504540082873  | [0.5629792517464735, 0.6134332600338076]
+
+14  |  ['B', 'C', 'D', 'A', 'E', 'F', 'G', 'K', 'I', 'H', 'J'] |   33    |   0.0504540082873  | [0.6134332600338076, 0.6638872683211418]
+
+20  |  ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J'] |   33    |   0.0504540082873  | [0.6638872683211418, 0.7143412766084759]
+
+3  |  ['C', 'B', 'A', 'D', 'E', 'F', 'G', 'I', 'K', 'H', 'J'] |   34    |   0.0489700668671  | [0.7143412766084759, 0.7633113434755944]
+
+6  |  ['B', 'C', 'D', 'A', 'E', 'F', 'I', 'G', 'K', 'H', 'J'] |   34    |   0.0489700668671  | [0.7633113434755944, 0.8122814103427128]
+
+16  |  ['B', 'C', 'D', 'A', 'E', 'F', 'I', 'G', 'K', 'H', 'J'] |   34    |   0.0489700668671  | [0.8122814103427128, 0.8612514772098313]
+
+7  |  ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K'] |   36    |   0.0462495075967  | [0.8612514772098313, 0.9075009848065543]
+
+17  |  ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K'] |   36    |   0.0462495075967  | [0.9075009848065543, 0.9537504924032773]
+
+19  |  ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K'] |   36    |   0.0462495075967  | [0.9537504924032773, 1.0000000000000002]
+
+
+Press Enter to choose another for next generation
+===========================================
+Random Prob: ====> No.: Chromosome
+0.799429160407 ===> 6   :  ['B', 'C', 'D', 'A', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+0.295935344557 ===> 2   :  ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+0.378079658224 ===> 5   :  ['C', 'B', 'A', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+0.666599310101 ===> 20   :  ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J']
+0.911441612811 ===> 17   :  ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K']
+0.425282491052 ===> 9   :  ['B', 'C', 'A', 'E', 'D', 'F', 'I', 'G', 'H', 'K', 'J']
+0.403844732336 ===> 5   :  ['C', 'B', 'A', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+0.494336844205 ===> 10   :  ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J']
+0.114877484072 ===> 11   :  ['B', 'A', 'C', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+0.701093611047 ===> 20   :  ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J']
+0.500981582828 ===> 10   :  ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J']
+0.425980361464 ===> 9   :  ['B', 'C', 'A', 'E', 'D', 'F', 'I', 'G', 'H', 'K', 'J']
+0.384973985076 ===> 5   :  ['C', 'B', 'A', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+0.814556072678 ===> 16   :  ['B', 'C', 'D', 'A', 'E', 'F', 'I', 'G', 'K', 'H', 'J']
+0.904258366473 ===> 7   :  ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K']
+0.195715502815 ===> 18   :  ['A', 'C', 'B', 'E', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+0.560180352601 ===> 12   :  ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+0.587667713251 ===> 13   :  ['C', 'B', 'A', 'D', 'E', 'F', 'G', 'H', 'K', 'I', 'J']
+0.208972006121 ===> 18   :  ['A', 'C', 'B', 'E', 'D', 'F', 'I', 'G', 'K', 'H', 'J']
+===========================================
+NextGeneration Chromosome
+15 ['B', 'C', 'A', 'D', 'E', 'F', 'G', 'K', 'H', 'I', 'J'] 31
+6 ['B', 'C', 'D', 'A', 'E', 'F', 'I', 'G', 'K', 'H', 'J'] 34
+2 ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J'] 33
+5 ['C', 'B', 'A', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J'] 33
+20 ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J'] 33
+17 ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K'] 36
+9 ['B', 'C', 'A', 'E', 'D', 'F', 'I', 'G', 'H', 'K', 'J'] 33
+5 ['C', 'B', 'A', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J'] 33
+10 ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J'] 33
+11 ['B', 'A', 'C', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J'] 32
+20 ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J'] 33
+10 ['B', 'A', 'E', 'C', 'D', 'F', 'G', 'H', 'K', 'I', 'J'] 33
+9 ['B', 'C', 'A', 'E', 'D', 'F', 'I', 'G', 'H', 'K', 'J'] 33
+5 ['C', 'B', 'A', 'D', 'E', 'F', 'I', 'G', 'K', 'H', 'J'] 33
+16 ['B', 'C', 'D', 'A', 'E', 'F', 'I', 'G', 'K', 'H', 'J'] 34
+7 ['A', 'C', 'D', 'B', 'E', 'F', 'I', 'G', 'H', 'J', 'K'] 36
+18 ['A', 'C', 'B', 'E', 'D', 'F', 'I', 'G', 'K', 'H', 'J'] 32
+12 ['B', 'A', 'E', 'C', 'D', 'F', 'I', 'G', 'K', 'H', 'J'] 33
+13 ['C', 'B', 'A', 'D', 'E', 'F', 'G', 'H', 'K', 'I', 'J'] 33
+18 ['A', 'C', 'B', 'E', 'D', 'F', 'I', 'G', 'K', 'H', 'J'] 32
